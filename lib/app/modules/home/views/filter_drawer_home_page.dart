@@ -21,6 +21,7 @@ class FilterDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // print('FilterDrawer');
     homeController.initFilterDrawerTour();
     homeController.showFilterDrawerTour(context);
     var tileColor = AppSettings.isDarkMode

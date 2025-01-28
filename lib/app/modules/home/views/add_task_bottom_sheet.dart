@@ -42,6 +42,7 @@ class AddTaskBottomSheet extends StatelessWidget {
                     .sentences
                     .addTaskTitle,
                 style: TextStyle(
+                  //Hello
                   color: AppSettings.isDarkMode
                       ? TaskWarriorColors.white
                       : TaskWarriorColors.black,
